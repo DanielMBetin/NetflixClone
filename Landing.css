@@ -1,0 +1,43 @@
+header{
+    background-image: url(Images/LandingBackground.jpg);
+    min-height: 125vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    scale: 1.2;
+    position: relative;
+} 
+header:before{
+    content: "";
+    width: 100%;
+    min-height: 125vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%);
+    
+}
+header .container{
+    max-width: 200vh;
+    display: flex;
+    align-items: center;
+    margin-left: 14.1rem;
+    margin-right: 13rem;
+}
+#navigation{
+    position: absolute;
+    justify-content: space-between;
+    margin-top: 20rem;
+}
+#logo img{
+    width: 10rem;
+    position: absolute;
+}
+#navigation nav{
+    position: absolute;
+    margin-left: ;
+    
+}
+body{
+    margin: 0;
+}

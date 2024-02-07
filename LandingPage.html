@@ -6,18 +6,20 @@
     <link href="Landing.css" rel="stylesheet">
     <link href="Images/favicon.ico" rel="icon">
 </head>
+<!-- Landing page background and buttons -->
 <header>
-    <div class="container">
-        <div id="navigation">    
+        <div id="navigation">  
             <!-- Netflix Logo -->
-            <div id="logo">   
-                <img src="Images/NetflixLogo.png" alt="Netflix brand logo">
-            </div>
-            <!-- Login and Language Button -->
+            <img id="logo"  alt="Netflix brand logo" src="Images/NetflixLogo.png">  
             <nav>
-                        <a href="">English</a>
-                        <a href="">Sign In</a>
+            <!-- Login and Language Button -->       
+                    <select class="selectLanguage">
+                        <option>English</option>
+                        <option>Español</option>
+                    </select>
+                    <button class="signIn">Sign In</button>
             </nav>
+        </div>
             <section id="hero">
                 <h1>Unlimited movies, TV shows, and more</h1>
                 <p>Watch anywhere. Cancel anytime.</p>
@@ -26,8 +28,6 @@
                     <input type="email" placeholder="Email address">
                     <button>Get Started</button>
                 </div>
-            </div>
-        </div> 
 </header>
 <body>
     </section>
@@ -192,4 +192,5 @@
         Netflix Colombia
     </div>
 </footer>
+<div> Icons made by <a href="https://www.flaticon.com/authors/google" title="Google"> Google </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
 </html>

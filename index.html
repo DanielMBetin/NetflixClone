@@ -3,29 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Netflix Clone - Watch TV Shows Online, Watch Movies Online</title>
-    <link href="Landing.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
     <link href="Images/favicon.ico" rel="icon">
 </head>
 <!-- Landing page background and buttons -->
-<header>
-        <div id="navigation">  
-            <!-- Netflix Logo -->
-            <img id="logo"  alt="Netflix brand logo" src="Images/NetflixLogo.png">  
+<body>
+    <header>
+        <div id="menu">    
             <nav>
-            <!-- Login and Language Button -->       
+                <img id="logo"  alt="Netflix brand logo" src="Images/NetflixLogo.png">
+                <div id="buttons">
+                    <!-- Language and Login Button -->       
                     <div id="selectButton">
                         <div>
-                            <img id="iconContainerL" src="Images/Translate.svg">
+                            <img id="translate" src="Images/Translate.svg">
                         </div>
                         <select id="selectLanguage">
                             <option>English</option>
                             <option>Español</option>
                         </select>
                         <div>
-                            <img class="iconContainerD" src="Images/DropDown.svg">
+                            <img id="dropDown" src="Images/DropDown.svg">
                         </div>
                     </div>
-                    <button class="signIn">Sign In</button>
+                    <button id="signIn">Sign In</button>
+                </div>
+                
             </nav>
         </div>
             <section id="hero">
@@ -36,9 +39,7 @@
                     <input type="email" placeholder="Email address">
                     <button>Get Started</button>
                 </div>
-</header>
-<body>
-    </section>
+    </header>
     <section id="enjoy">
         <div>
             <h2>Enjoy on your TV</h2>

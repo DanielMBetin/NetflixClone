@@ -25,16 +25,35 @@ header{
     margin-top: 5rem;
     width: 150px; 
 }
-.selectLanguage{
-    width: 120px;
-    padding: 4px 30px 4px 30px;
-    color: white;
-    background: #00000062;
-    justify-content: center;
+nav #selectButton{
+    height: 28px;
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
     position: relative;
+    background:#202020ab;
+    border: none;
+}
+#selectLanguage{
+    width:90px;
+    padding: 5px 0px 5px 25px;
+    color: white;
+    background:none;
+    justify-content: center;
+    position: absolute;
     appearance: none;
-    border-radius: 2px;
-    border-color: aliceblue;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border-width: 0.1px;
+}
+
+.iconContainerL{
+    
+}
+.iconContainerD{
+    display: block;
+    padding-left: 45px;
 }
 body{
     background: #000;

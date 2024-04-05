@@ -1,5 +1,5 @@
 body{
-    margin-top: 0px;
+    margin-top: 0rem;
     background: #000;
 }
 
@@ -26,33 +26,33 @@ nav{
     justify-content:space-between
 }
 #logo{
-    width: 150px; 
+    width: 8em; 
 }
 #buttons{
-    width: 200px;
+    width: 12.5rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 #selectButton{
-    height: 25px;
-    width: 90px;
+    height: 1.5625rem;
+    width: 5.625rem;
     display: flex;
     justify-content: space-between;
     position: relative;
     background:#202020ab;
     border: none;
-    border-radius: 3px;
+    border-radius: .1875rem;
 }
 
 #translate{
-    width: 20px;
-    padding: 2px 0px 0px 5px;
+    width: 1.25rem;
+    padding: .125rem 0rem 0rem .3125rem;
 }
 
 #selectLanguage{
-    width:90px;
-    padding: 5px 0px 5px 25px;
+    width:5.625rem;
+    padding: .3125rem 0rem .3125rem 1.5625rem;
     color: white;
     background:none;
     justify-content: center;
@@ -60,6 +60,6 @@ nav{
     appearance: none;
     border: solid;
     border-color: rgb(255, 255, 255);
-    border-radius: 3px;
-    border-width: 0.1px;
+    border-radius: .1875rem;
+    border-width: .0063rem;
 }
